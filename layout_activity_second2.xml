@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="hhp.fuse.SecondActivity"
+    android:background="#ff000000"
+    android:weightSum="1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/option_layout">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:layout_gravity="top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/language_option"
+            android:id="@+id/language_option_TextView"
+            android:textColor="#ffb7d5d4"
+            android:gravity="center" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:background="#ffd4faff"
+            android:textAlignment="center"
+            android:popupBackground="#ffcffdff"
+            android:spinnerMode="dropdown"
+            android:layout_gravity="right|top"
+            android:entries="@array/Languages"
+            android:prompt="@string/language_option"
+            android:visibility="visible" />
+
+    </LinearLayout>
+</LinearLayout>

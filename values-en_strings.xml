@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fuse</string>
+    <string name="fuse_title">Fuse</string>
+    <string name="play_button">Play</string>
+    <string name="language_setting"> Language Setting</string>
+    <string name="Intro1">Hello!! Welcome! Please Login ...</string>
+    <string name="username_textview"> User Name:</string>
+    <string name="password_textview">Password:</string>
+    <string name="login">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">Options</string>
+    <string name="language_option">Languages: </string>
+    <string-array name="Languages">
+        <item>English</item>
+        <item>VietNamese</item>
+    </string-array>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main_game">Fuse</string>
+</resources>

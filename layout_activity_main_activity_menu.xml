@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivityMenu"
+    android:background="#ff040301"
+    android:weightSum="1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/main_layout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="289dp"
+        android:layout_height="307dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/title_Layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/fuse_title"
+            android:id="@+id/gameTitle_TextView"
+            android:textColor="#ffb7d5d4"
+            android:textSize="55dp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:text="@string/play_button"
+        android:id="@+id/play_Button"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffb7d5d4"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#ff040301" />
+
+    <Button
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_second"
+        android:id="@+id/language_option_TextView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffb7d5d4"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#ff040301"
+        android:layout_weight="0.10" />
+
+</LinearLayout>

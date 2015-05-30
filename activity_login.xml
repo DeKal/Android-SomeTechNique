@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ff040301">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="87dp"
+                android:layout_height="89dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/profile" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Intro1"
+            android:id="@+id/intro1_TextView"
+            android:textColor="#ffb7d5d4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.52"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="138dp"
+            android:layout_height="106dp"
+            android:gravity="right"
+            android:layout_weight="0.05"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/username_textview"
+                android:id="@+id/userName_TextView"
+                android:layout_weight="0.25"
+                android:textColor="#ffb7d5d4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/password_textview"
+                android:id="@+id/password_TextView"
+                android:layout_weight="0.25"
+                android:textColor="#ffb7d5d4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            android:layout_gravity="center_vertical">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:singleLine="true"
+                android:textColor="#ffb7d5d4" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:textColor="#ffb7d5d4" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/login_Button"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffb7d5d4"
+        android:background="#ff040301" />
+
+</LinearLayout>

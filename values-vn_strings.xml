@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fuse</string>
+    <string name="fuse_title">Fuse</string>
+    <string name="play_button">Chơi</string>
+    <string name="language_setting"> Chọn Ngôn Ngữ</string>
+    <string name="Intro1">Xin chào! Mời bạn đăng nhập!!</string>
+    <string name="username_textview">Tài Khoản:</string>
+    <string name="password_textview">Mật Khẩu:</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="action_settings">Cài Đặt</string>
+    <string name="title_activity_second">Cài Đặt</string>
+    <string name="language_option">Ngôn Ngữ: </string>
+    <string-array name="Languages">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+    <string name="title_activity_login">Đăng Nhập</string>
+    <string name="title_activity_main_game">Fuse</string>
+</resources>
